@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'Soyuz';
+  src: url(../src/assets/fonts/Soyuz\ Grotesk\ Bold.otf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  transition: 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway';
+}
+
+.container{
+  width: 1280px;
+  margin: 30px auto;
+}
+
+
+.logo{
+  color: #FF5B00;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Soyuz';
+}
+
+
+.btn{
+  background: #FF5B00;
+  padding: 6px 15px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+
+.btn:hover{
+  background: #E15000;
+}
+
+.btn2{
+  color: #FF5B00;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn2:hover{
+  color: #E15000;
+}
+
+.wrapper{
+  margin: 0 auto;
+}
+
+h2{
+  font-size: 32px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+
+@media (max-width: 1400px) and (min-width: 700px) {
+  .container{
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .banner{
+    background-size: 200%;
+  }
+}

@@ -1,0 +1,39 @@
+.banner{
+    width: 100%;
+    height: auto;
+    padding: 150px 100px;
+    background: url(../../media/banner.svg) no-repeat;
+    background-size: 100%;
+    border-radius: 40px;
+}
+
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner-info h1{
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Soyuz';
+}
+
+.banner-info p{
+    width: 50%;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+
+@media (max-width: 1400px) and (min-width: 700px) {
+    .banner{
+        padding: 100px 50px;
+        background-size: 140%;
+    }
+
+    .banner-info h1{
+        font-size: 70px;
+    }
+  }

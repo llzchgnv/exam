@@ -1,0 +1,16 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    padding: 8px 10px;
+    border: #e7e7e7 solid 1.5px;
+    border-radius: 8px;
+    width: 320px;
+    height: 50px;
+}
+
+input{
+    outline: none;
+    border: none;
+}

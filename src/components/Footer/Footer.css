@@ -1,0 +1,45 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #302C2A;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.logo2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-menu h4{
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-menu p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-menu-icon{
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}

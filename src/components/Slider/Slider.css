@@ -1,0 +1,77 @@
+.item {
+    border: 1.5px solid #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    flex: 0 0 25%; /* Отображаем 4 товара в ряду */
+    box-sizing: border-box;
+}
+
+.item:hover {
+    filter: drop-shadow(3px 7px 11px rgba(0, 0, 0, 0.12));
+}
+
+.item-title {
+    padding: 0px 10px 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item img {
+    border-bottom: 1.5px solid #F3F3F3;
+}
+
+.item-title h5 {
+    color: #313551;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%;
+    /* 22.88px */
+}
+
+.item-title h5{
+    color: #E15000;
+    font-size: 16px;
+}
+
+.slider-content {
+    display: flex;
+    gap: 25px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.controls button {
+    margin: 0 5px;
+    background: #f3f3f3;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: none;
+    outline: none;
+}
+
+.controls button:focus{
+    background: #E15000;
+}
